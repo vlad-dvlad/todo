@@ -4,9 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
+    "prettier:check": "npx prettier . --check",
+    "prettier:fix": "npx prettier . --write",
+    "lint:check": "npx eslint --c eslint.config.js  ./src/*.js",
+    "lint:fix": "npx eslint --fix eslint.config.js  ./src/*.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "vlad-dvlad",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "husky": "^9.0.11",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  },
+  "type": "commonjs"
 }
