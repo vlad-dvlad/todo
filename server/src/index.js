@@ -1,5 +1,6 @@
 require("dotenv").config();
 const express = require("express");
+console.log(a)
 let a = 22;
 console.log('aaa')
 
