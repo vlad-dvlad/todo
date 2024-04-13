@@ -12,11 +12,6 @@
     "lint:check": "npx eslint --c eslint.config.js  ./src/*.js",
     "lint:fix": "npx eslint --fix eslint.config.js  ./src/*.js"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run prettier:fix && npm run lint:fix"
-    }
-  },
   "keywords": [],
   "author": "vlad-dvlad",
   "license": "ISC",
