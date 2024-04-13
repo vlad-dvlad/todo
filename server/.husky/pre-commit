@@ -1,0 +1,5 @@
+npm test
+npm prettier:check
+npm prettier:fix
+npm lint:check
+npm lint:fix
