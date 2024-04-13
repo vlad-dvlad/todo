@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
+let a = 22;
 const PORT = process.env.PORT || 3001;
-var a = 22;
-console.log(b)
 const app = express();
+// eslint-disable-next-line no-console
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));
