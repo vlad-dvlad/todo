@@ -1,4 +1,4 @@
-const newArray = [
+const todos = [
   {
     id: 1,
     title: "delectus aut autem",
@@ -151,3 +151,7 @@ const newArray = [
     completed: true,
   },
 ];
+
+module.exports = {
+  todos,
+};
